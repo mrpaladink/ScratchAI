@@ -1,0 +1,55 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeASM_MASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLanguage.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLinkerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckLinkerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
+D:/src/ScratchAI/Application/build/CMakeFiles/3.30.2/CMakeASM_MASMCompiler.cmake
+D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/git-data/grabRef.cmake
+D:/src/ScratchAI/Application/build/libs/SDL/SDL_build_config.h.intermediate
+D:/src/ScratchAI/Application/libs/SDL/.git/HEAD
+D:/src/ScratchAI/Application/libs/SDL/.git/refs/heads/main
+D:/src/ScratchAI/Application/libs/SDL/CMakeLists.txt
+D:/src/ScratchAI/Application/libs/SDL/cmake/3rdparty.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/FindLibUSB.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/GetGitRevisionDescription.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/GetGitRevisionDescription.cmake.in
+D:/src/ScratchAI/Application/libs/SDL/cmake/PreseedEmscriptenCache.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/PreseedMSVCCache.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/SDL3Config.cmake.in
+D:/src/ScratchAI/Application/libs/SDL/cmake/cmake_uninstall.cmake.in
+D:/src/ScratchAI/Application/libs/SDL/cmake/macros.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/sdlchecks.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/sdlcompilers.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/sdlcpu.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/sdlmanpages.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/sdlplatform.cmake
+D:/src/ScratchAI/Application/libs/SDL/cmake/sdltargets.cmake
+D:/src/ScratchAI/Application/libs/SDL/include/build_config/SDL_build_config.h.cmake
+D:/src/ScratchAI/Application/libs/SDL/include/build_config/SDL_revision.h.cmake

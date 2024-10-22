@@ -1,0 +1,66 @@
+﻿  Building Custom Rule D:/src/ScratchAI/Application/libs/SDL_ttf/external/freetype/CMakeLists.txt
+  autofit.c
+  ftbase.c
+  ftbbox.c
+  ftbdf.c
+  ftbitmap.c
+  ftcid.c
+  ftfstype.c
+  ftgasp.c
+  ftglyph.c
+  ftgxval.c
+  ftinit.c
+  ftmm.c
+  ftotval.c
+  ftpatent.c
+  ftpfr.c
+  ftstroke.c
+  ftsynth.c
+  fttype1.c
+  ftwinfnt.c
+  bdf.c
+  Code wird generiert...
+  Kompilieren...
+  ftbzip2.c
+  ftcache.c
+  cff.c
+  type1cid.c
+  ftgzip.c
+  ftlzw.c
+  pcf.c
+  pfr.c
+  psaux.c
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\psaux\t1decode.c(1996,23): warning C4267: "=": Konvertierung von "size_t" nach "FT_Int", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\psaux\psintrp.c(1012,25): warning C4267: "=": Konvertierung von "size_t" nach "FT_Fast", Datenverlust möglich
+  pshinter.c
+  psnames.c
+  raster.c
+  sdf.c
+  sfnt.c
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\sfnt\sfdriver.c(884,13): warning C4267: "=": Konvertierung von "size_t" nach "FT_UInt", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\sfnt\sfdriver.c(1036,36): warning C4244: "Funktion": Konvertierung von "__int64" in "const unsigned int", möglicher Datenverlust
+  smooth.c
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\smooth\ftgrays.c(1898,20): warning C4267: "+=": Konvertierung von "size_t" nach "TCoord", Datenverlust möglich
+  svg.c
+  truetype.c
+  type1.c
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1driver.c(292,48): warning C4267: "=": Konvertierung von "size_t" nach "FT_ULong", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1driver.c(313,55): warning C4267: "=": Konvertierung von "size_t" nach "FT_ULong", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1driver.c(342,62): warning C4267: "=": Konvertierung von "size_t" nach "FT_ULong", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1driver.c(369,19): warning C4267: "=": Konvertierung von "size_t" nach "FT_UInt", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1driver.c(578,56): warning C4267: "=": Konvertierung von "size_t" nach "FT_ULong", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1driver.c(587,55): warning C4267: "=": Konvertierung von "size_t" nach "FT_ULong", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1driver.c(596,58): warning C4267: "=": Konvertierung von "size_t" nach "FT_ULong", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1driver.c(605,60): warning C4267: "=": Konvertierung von "size_t" nach "FT_ULong", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1driver.c(615,55): warning C4267: "=": Konvertierung von "size_t" nach "FT_ULong", Datenverlust möglich
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1load.c(1780,64): warning C4244: "=": Konvertierung von "__int64" in "FT_Int", möglicher Datenverlust
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type1\t1load.c(1953,36): warning C4244: "=": Konvertierung von "__int64" in "FT_Int", möglicher Datenverlust
+  type42.c
+D:\src\ScratchAI\Application\libs\SDL_ttf\external\freetype\src\type42\t42parse.c(878,62): warning C4244: "=": Konvertierung von "__int64" in "FT_Int", möglicher Datenverlust
+  winfnt.c
+  Code wird generiert...
+  Kompilieren...
+  ftsystem.c
+  ftdebug.c
+  Code wird generiert...
+  freetype.vcxproj -> D:\src\ScratchAI\Application\build\libs\SDL_ttf\external\freetype\Debug\freetyped.lib

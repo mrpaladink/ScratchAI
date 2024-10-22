@@ -1,0 +1,10 @@
+D:/src/ScratchAI/Application/build/CMakeFiles/scratchai.dir
+D:/src/ScratchAI/Application/build/CMakeFiles/PACKAGE.dir
+D:/src/ScratchAI/Application/build/CMakeFiles/ALL_BUILD.dir
+D:/src/ScratchAI/Application/build/CMakeFiles/ZERO_CHECK.dir
+D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/SDL3-shared.dir
+D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/SDL3_test.dir
+D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/SDL_uclibc.dir
+D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/uninstall.dir
+D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/PACKAGE.dir
+D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/ALL_BUILD.dir

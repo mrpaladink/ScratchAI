@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\src\ScratchAI\Application\build\CMakeFiles\e37d0aba07dc94e77c83d43eba09c82f\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\src\ScratchAI\Application\libs\SDL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\src\ScratchAI\Application\build\libs\SDL\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{30419E73-E2D7-37E3-8696-55485B98C688}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

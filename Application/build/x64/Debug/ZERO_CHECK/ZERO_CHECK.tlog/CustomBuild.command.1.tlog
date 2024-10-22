@@ -1,0 +1,10 @@
+^D:\SRC\SCRATCHAI\APPLICATION\BUILD\CMAKEFILES\CDED3D834035E47A0D23EE6291D61F29\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/src/ScratchAI/Application -BD:/src/ScratchAI/Application/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/src/ScratchAI/Application/build/scratchai.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

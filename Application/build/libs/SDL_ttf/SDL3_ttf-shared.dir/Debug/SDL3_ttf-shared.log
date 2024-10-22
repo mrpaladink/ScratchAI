@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/src/ScratchAI/Application/libs/SDL_ttf/CMakeLists.txt
+  SDL_hashtable.c
+  SDL_renderer_textengine.c
+  SDL_surface_textengine.c
+  SDL_ttf.c
+  Code wird generiert...
+     Bibliothek "D:/src/ScratchAI/Application/build/libs/SDL_ttf/Debug/SDL3_ttf.lib" und Objekt "D:/src/ScratchAI/Application/build/libs/SDL_ttf/Debug/SDL3_ttf.exp" werden erstellt.
+  SDL3_ttf-shared.vcxproj -> D:\src\ScratchAI\Application\bin\Debug\SDL3_ttf.dll

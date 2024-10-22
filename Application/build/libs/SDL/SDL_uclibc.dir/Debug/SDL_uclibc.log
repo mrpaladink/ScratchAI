@@ -1,0 +1,30 @@
+﻿  Building Custom Rule D:/src/ScratchAI/Application/libs/SDL/CMakeLists.txt
+  e_atan2.c
+  e_exp.c
+  e_fmod.c
+  e_log.c
+  e_log10.c
+  e_pow.c
+  e_rem_pio2.c
+  e_sqrt.c
+  k_cos.c
+  k_rem_pio2.c
+  k_sin.c
+  k_tan.c
+  s_atan.c
+  s_copysign.c
+  s_cos.c
+  s_fabs.c
+  s_floor.c
+  s_isinf.c
+  s_isinff.c
+  s_isnan.c
+  Code wird generiert...
+  Kompilieren...
+  s_isnanf.c
+  s_modf.c
+  s_scalbn.c
+  s_sin.c
+  s_tan.c
+  Code wird generiert...
+  SDL_uclibc.vcxproj -> D:\src\ScratchAI\Application\build\libs\SDL\Debug\SDL_uclibc.lib

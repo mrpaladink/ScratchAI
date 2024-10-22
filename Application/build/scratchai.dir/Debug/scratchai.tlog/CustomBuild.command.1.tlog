@@ -1,0 +1,10 @@
+^D:\SRC\SCRATCHAI\APPLICATION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/src/ScratchAI/Application -BD:/src/ScratchAI/Application/build --check-stamp-file D:/src/ScratchAI/Application/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

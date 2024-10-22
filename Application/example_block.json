@@ -1,0 +1,29 @@
+{
+    "type": "data",
+    "content": [
+        { 
+            "type": "static_text",         
+            "text": "Input a number between 1 and 6" 
+        },
+        { 
+            "type": "input_number", 
+            "min": 1, 
+            "max": 6, 
+            "variable": "example1"
+        },
+        { 
+            "type": "static_text",         
+            "text": "and select" 
+        },
+        { 
+            "type": "input_selection",
+            "options": [
+                "Option 1",
+                "Option 2",
+                "Option 3"
+            ],
+            "variable": "example2"
+        }
+    ],
+    "code": "print('Hello from python,', example1, example2, 'and bye.')"
+}

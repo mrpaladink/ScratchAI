@@ -1,0 +1,1198 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      Der Buildvorgang wurde am 01.10.2024 20:02:28 gestartet.
+      Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Das Verzeichnis "Debug\\CompilerIdC.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird gel”scht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\3.30.2\\CompilerIdC\\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:00.66
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/src/ScratchAI/Application/build/CMakeFiles/3.30.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      Der Buildvorgang wurde am 01.10.2024 20:02:29 gestartet.
+      Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Das Verzeichnis "Debug\\CompilerIdCXX.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird gel”scht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:00.52
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/src/ScratchAI/Application/build/CMakeFiles/3.30.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-4f6bb5"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-4f6bb5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-4f6bb5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f989f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:02:30 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f6bb5\\cmTC_f989f.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_f989f.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f6bb5\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_f989f.dir\\Debug\\cmTC_f989f.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_f989f.dir\\Debug\\cmTC_f989f.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f989f.dir\\Debug\\\\" /Fd"cmTC_f989f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f989f.dir\\Debug\\\\" /Fd"cmTC_f989f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f6bb5\\Debug\\cmTC_f989f.exe" /INCREMENTAL /ILK:"cmTC_f989f.dir\\Debug\\cmTC_f989f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-4f6bb5/Debug/cmTC_f989f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-4f6bb5/Debug/cmTC_f989f.lib" /MACHINE:X64  /machine:x64 cmTC_f989f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f989f.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f6bb5\\Debug\\cmTC_f989f.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_f989f.dir\\Debug\\cmTC_f989f.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_f989f.dir\\Debug\\cmTC_f989f.tlog\\cmTC_f989f.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f6bb5\\cmTC_f989f.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-50mc2x"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-50mc2x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-50mc2x'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8fb99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:02:31 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50mc2x\\cmTC_8fb99.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_8fb99.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50mc2x\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_8fb99.dir\\Debug\\cmTC_8fb99.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_8fb99.dir\\Debug\\cmTC_8fb99.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8fb99.dir\\Debug\\\\" /Fd"cmTC_8fb99.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8fb99.dir\\Debug\\\\" /Fd"cmTC_8fb99.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50mc2x\\Debug\\cmTC_8fb99.exe" /INCREMENTAL /ILK:"cmTC_8fb99.dir\\Debug\\cmTC_8fb99.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-50mc2x/Debug/cmTC_8fb99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-50mc2x/Debug/cmTC_8fb99.lib" /MACHINE:X64  /machine:x64 cmTC_8fb99.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8fb99.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50mc2x\\Debug\\cmTC_8fb99.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_8fb99.dir\\Debug\\cmTC_8fb99.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_8fb99.dir\\Debug\\cmTC_8fb99.tlog\\cmTC_8fb99.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50mc2x\\cmTC_8fb99.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/SDL/cmake/sdlcpu.cmake:85 (try_compile)"
+      - "libs/SDL/CMakeLists.txt:58 (SDL_DetectTargetCPUArchitectures)"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "SDL_CPU_CHECK_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/libs/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c75c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:03 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\libs\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_0c75c.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_0c75c.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\libs\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_0c75c.dir\\Debug\\cmTC_0c75c.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_0c75c.dir\\Debug\\cmTC_0c75c.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c75c.dir\\Debug\\\\" /Fd"D:\\src\\ScratchAI\\Application\\build\\libs\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_0c75c.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\src\\ScratchAI\\Application\\build\\libs\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          SDL_detect_arch.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c75c.dir\\Debug\\\\" /Fd"D:\\src\\ScratchAI\\Application\\build\\libs\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_0c75c.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\src\\ScratchAI\\Application\\build\\libs\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\Lib.exe /OUT:"D:\\src\\ScratchAI\\Application\\build\\libs\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_0c75c.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_0c75c.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_0c75c.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\libs\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_0c75c.lib
+        FinalizeBuildStatus:
+          Die Datei "cmTC_0c75c.dir\\Debug\\cmTC_0c75c.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_0c75c.dir\\Debug\\cmTC_0c75c.tlog\\cmTC_0c75c.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\libs\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_0c75c.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is Clang using "--version" did not match "(clang version)":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is ARMClang using "--version" did not match "armclang":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is HP using "-V" did not match "HP C":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -V
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is Intel using "--version" did not match "(ICC)":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is SunPro using "-V" did not match "Sun C":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -V
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is XL using "-qversion" did not match "XL C":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -qversion
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "libs/SDL/CMakeLists.txt:470 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is MSVC using "-?" matched "Microsoft":
+      Microsoft (R) Macro Assembler (x64) Version 14.32.31332.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+              ML64 [ /options ] filelist [ /link linkoptions ]
+      
+      /Bl<linker> Use alternate linker          /Sf Generate first pass listing
+      /c Assemble without linking               /Sl<width> Set line width
+      /Cp Preserve case of user identifiers     /Sn Suppress symbol-table listing
+      /Cx Preserve case in publics, externs     /Sp<length> Set page length
+      /D<name>[=text] Define text macro         /Ss<string> Set subtitle
+      /EP Output preprocessed listing to stdout /St<string> Set title
+      /F <hex> Set stack size (bytes)           /Sx List false conditionals
+      /Fe<file> Name executable                 /Ta<file> Assemble non-.ASM file
+      /Fl[file] Generate listing                /w Same as /W0 /WX
+      /Fm[file] Generate map                    /WX Treat warnings as errors
+      /Fo<file> Name object file                /W<number> Set warning level
+      /Fr[file] Generate limited browser info   /X Ignore INCLUDE environment path
+      /FR[file] Generate full browser info      /Zd Add line number debug info
+      /I<name> Add include path                 /Zf Make all symbols public
+      /link <linker options and libraries>      /Zi Add symbolic debug info
+      /nologo Suppress copyright message        /Zp[n] Set structure alignment
+      /Sa Maximize source listing               /Zs Perform syntax check only
+      /ZH:MD5 Use MD5 for checksum in debug info
+      /ZH:SHA_256 Use SHA256 for checksum in debug info (default)
+      /Gy[-] separate functions for linker
+      /errorReport:<option> Deprecated. Report internal assembler errors to Microsoft
+          none - do not send report
+          prompt - prompt to immediately send report
+          queue - at next admin logon, prompt to send report
+          send - send report automatically
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:608 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_MMX"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-380vz7"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-380vz7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_MMX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-380vz7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_318dd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:04 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\cmTC_318dd.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_318dd.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_318dd.dir\\Debug\\cmTC_318dd.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_318dd.dir\\Debug\\cmTC_318dd.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_318dd.dir\\Debug\\\\" /Fd"cmTC_318dd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+        D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\src.c(5,27): warning C4013: "_mm_add_pi32" undefiniert; Annahme: extern mit R\xc2\x81ckgabetyp int [D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\cmTC_318dd.vcxproj]
+        D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\src.c(5,63): error C2440: "=": "int" kann nicht in "__m64" konvertiert werden [D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\cmTC_318dd.vcxproj]
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_318dd.dir\\Debug\\\\" /Fd"cmTC_318dd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\src.c"
+        Die Erstellung des Projekts "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\cmTC_318dd.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+        
+        Fehler beim Buildvorgang.
+        
+        "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\cmTC_318dd.vcxproj" (Standardziel) (1) ->
+        (ClCompile Ziel) -> 
+          D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\src.c(5,27): warning C4013: "_mm_add_pi32" undefiniert; Annahme: extern mit R\xc2\x81ckgabetyp int [D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\cmTC_318dd.vcxproj]
+        
+        
+        "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\cmTC_318dd.vcxproj" (Standardziel) (1) ->
+        (ClCompile Ziel) -> 
+          D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\src.c(5,63): error C2440: "=": "int" kann nicht in "__m64" konvertiert werden [D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-380vz7\\cmTC_318dd.vcxproj]
+        
+            1 Warnung(en)
+            1 Fehler
+        
+        Verstrichene Zeit 00:00:00.30
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:629 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-omnh3j"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-omnh3j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-omnh3j'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7951.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:04 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omnh3j\\cmTC_f7951.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_f7951.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omnh3j\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_f7951.dir\\Debug\\cmTC_f7951.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_f7951.dir\\Debug\\cmTC_f7951.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7951.dir\\Debug\\\\" /Fd"cmTC_f7951.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omnh3j\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7951.dir\\Debug\\\\" /Fd"cmTC_f7951.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omnh3j\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omnh3j\\Debug\\cmTC_f7951.exe" /INCREMENTAL /ILK:"cmTC_f7951.dir\\Debug\\cmTC_f7951.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-omnh3j/Debug/cmTC_f7951.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-omnh3j/Debug/cmTC_f7951.lib" /MACHINE:X64  /machine:x64 cmTC_f7951.dir\\Debug\\src.obj
+          cmTC_f7951.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omnh3j\\Debug\\cmTC_f7951.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_f7951.dir\\Debug\\cmTC_f7951.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_f7951.dir\\Debug\\cmTC_f7951.tlog\\cmTC_f7951.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-omnh3j\\cmTC_f7951.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:650 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-vz2lbk"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-vz2lbk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-vz2lbk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2273d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:05 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz2lbk\\cmTC_2273d.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_2273d.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz2lbk\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_2273d.dir\\Debug\\cmTC_2273d.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_2273d.dir\\Debug\\cmTC_2273d.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2273d.dir\\Debug\\\\" /Fd"cmTC_2273d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz2lbk\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2273d.dir\\Debug\\\\" /Fd"cmTC_2273d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz2lbk\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz2lbk\\Debug\\cmTC_2273d.exe" /INCREMENTAL /ILK:"cmTC_2273d.dir\\Debug\\cmTC_2273d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-vz2lbk/Debug/cmTC_2273d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-vz2lbk/Debug/cmTC_2273d.lib" /MACHINE:X64  /machine:x64 cmTC_2273d.dir\\Debug\\src.obj
+          cmTC_2273d.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz2lbk\\Debug\\cmTC_2273d.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_2273d.dir\\Debug\\cmTC_2273d.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_2273d.dir\\Debug\\cmTC_2273d.tlog\\cmTC_2273d.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vz2lbk\\cmTC_2273d.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:671 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE3"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-m8ocd8"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-m8ocd8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-m8ocd8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4ee49.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:06 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m8ocd8\\cmTC_4ee49.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_4ee49.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m8ocd8\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_4ee49.dir\\Debug\\cmTC_4ee49.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_4ee49.dir\\Debug\\cmTC_4ee49.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ee49.dir\\Debug\\\\" /Fd"cmTC_4ee49.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m8ocd8\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ee49.dir\\Debug\\\\" /Fd"cmTC_4ee49.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m8ocd8\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m8ocd8\\Debug\\cmTC_4ee49.exe" /INCREMENTAL /ILK:"cmTC_4ee49.dir\\Debug\\cmTC_4ee49.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-m8ocd8/Debug/cmTC_4ee49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-m8ocd8/Debug/cmTC_4ee49.lib" /MACHINE:X64  /machine:x64 cmTC_4ee49.dir\\Debug\\src.obj
+          cmTC_4ee49.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m8ocd8\\Debug\\cmTC_4ee49.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_4ee49.dir\\Debug\\cmTC_4ee49.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_4ee49.dir\\Debug\\cmTC_4ee49.tlog\\cmTC_4ee49.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m8ocd8\\cmTC_4ee49.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:692 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_1"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-ob87rj"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-ob87rj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-ob87rj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bdace.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:06 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob87rj\\cmTC_bdace.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_bdace.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob87rj\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_bdace.dir\\Debug\\cmTC_bdace.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_bdace.dir\\Debug\\cmTC_bdace.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdace.dir\\Debug\\\\" /Fd"cmTC_bdace.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob87rj\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdace.dir\\Debug\\\\" /Fd"cmTC_bdace.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob87rj\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob87rj\\Debug\\cmTC_bdace.exe" /INCREMENTAL /ILK:"cmTC_bdace.dir\\Debug\\cmTC_bdace.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-ob87rj/Debug/cmTC_bdace.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-ob87rj/Debug/cmTC_bdace.lib" /MACHINE:X64  /machine:x64 cmTC_bdace.dir\\Debug\\src.obj
+          cmTC_bdace.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob87rj\\Debug\\cmTC_bdace.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_bdace.dir\\Debug\\cmTC_bdace.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_bdace.dir\\Debug\\cmTC_bdace.tlog\\cmTC_bdace.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ob87rj\\cmTC_bdace.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:713 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-01nq39"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-01nq39"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-01nq39'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_89156.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:07 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01nq39\\cmTC_89156.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_89156.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01nq39\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_89156.dir\\Debug\\cmTC_89156.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_89156.dir\\Debug\\cmTC_89156.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89156.dir\\Debug\\\\" /Fd"cmTC_89156.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01nq39\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89156.dir\\Debug\\\\" /Fd"cmTC_89156.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01nq39\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01nq39\\Debug\\cmTC_89156.exe" /INCREMENTAL /ILK:"cmTC_89156.dir\\Debug\\cmTC_89156.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-01nq39/Debug/cmTC_89156.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-01nq39/Debug/cmTC_89156.lib" /MACHINE:X64  /machine:x64 cmTC_89156.dir\\Debug\\src.obj
+          cmTC_89156.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01nq39\\Debug\\cmTC_89156.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_89156.dir\\Debug\\cmTC_89156.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_89156.dir\\Debug\\cmTC_89156.tlog\\cmTC_89156.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-01nq39\\cmTC_89156.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:736 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-lkgwxu"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-lkgwxu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-lkgwxu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8c7da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:08 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lkgwxu\\cmTC_8c7da.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_8c7da.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lkgwxu\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_8c7da.dir\\Debug\\cmTC_8c7da.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_8c7da.dir\\Debug\\cmTC_8c7da.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c7da.dir\\Debug\\\\" /Fd"cmTC_8c7da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lkgwxu\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c7da.dir\\Debug\\\\" /Fd"cmTC_8c7da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lkgwxu\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lkgwxu\\Debug\\cmTC_8c7da.exe" /INCREMENTAL /ILK:"cmTC_8c7da.dir\\Debug\\cmTC_8c7da.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-lkgwxu/Debug/cmTC_8c7da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-lkgwxu/Debug/cmTC_8c7da.lib" /MACHINE:X64  /machine:x64 cmTC_8c7da.dir\\Debug\\src.obj
+          cmTC_8c7da.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lkgwxu\\Debug\\cmTC_8c7da.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_8c7da.dir\\Debug\\cmTC_8c7da.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_8c7da.dir\\Debug\\cmTC_8c7da.tlog\\cmTC_8c7da.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lkgwxu\\cmTC_8c7da.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:757 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX2"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-b92fp2"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-b92fp2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-b92fp2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1e688.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:08 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b92fp2\\cmTC_1e688.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_1e688.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b92fp2\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_1e688.dir\\Debug\\cmTC_1e688.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_1e688.dir\\Debug\\cmTC_1e688.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e688.dir\\Debug\\\\" /Fd"cmTC_1e688.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b92fp2\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e688.dir\\Debug\\\\" /Fd"cmTC_1e688.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b92fp2\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b92fp2\\Debug\\cmTC_1e688.exe" /INCREMENTAL /ILK:"cmTC_1e688.dir\\Debug\\cmTC_1e688.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-b92fp2/Debug/cmTC_1e688.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-b92fp2/Debug/cmTC_1e688.lib" /MACHINE:X64  /machine:x64 cmTC_1e688.dir\\Debug\\src.obj
+          cmTC_1e688.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b92fp2\\Debug\\cmTC_1e688.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_1e688.dir\\Debug\\cmTC_1e688.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_1e688.dir\\Debug\\cmTC_1e688.tlog\\cmTC_1e688.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b92fp2\\cmTC_1e688.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:778 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX512F"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-rjflad"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-rjflad"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX512F"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-rjflad'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d7a02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:09 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjflad\\cmTC_d7a02.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_d7a02.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjflad\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_d7a02.dir\\Debug\\cmTC_d7a02.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_d7a02.dir\\Debug\\cmTC_d7a02.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7a02.dir\\Debug\\\\" /Fd"cmTC_d7a02.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjflad\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7a02.dir\\Debug\\\\" /Fd"cmTC_d7a02.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjflad\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjflad\\Debug\\cmTC_d7a02.exe" /INCREMENTAL /ILK:"cmTC_d7a02.dir\\Debug\\cmTC_d7a02.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-rjflad/Debug/cmTC_d7a02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-rjflad/Debug/cmTC_d7a02.lib" /MACHINE:X64  /machine:x64 cmTC_d7a02.dir\\Debug\\src.obj
+          cmTC_d7a02.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjflad\\Debug\\cmTC_d7a02.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_d7a02.dir\\Debug\\cmTC_d7a02.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_d7a02.dir\\Debug\\cmTC_d7a02.tlog\\cmTC_d7a02.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjflad\\cmTC_d7a02.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:1895 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GAMEINPUT_H"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-y3l86v"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-y3l86v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_GAMEINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-y3l86v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_24ad5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:10 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\cmTC_24ad5.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_24ad5.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_24ad5.dir\\Debug\\cmTC_24ad5.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_24ad5.dir\\Debug\\cmTC_24ad5.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24ad5.dir\\Debug\\\\" /Fd"cmTC_24ad5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24ad5.dir\\Debug\\\\" /Fd"cmTC_24ad5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\src.c"
+        D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\src.c(4,14): fatal error C1083: Datei (Include) kann nicht ge”ffnet werden: "gameinput.h": No such file or directory [D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\cmTC_24ad5.vcxproj]
+        Die Erstellung des Projekts "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\cmTC_24ad5.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+        
+        Fehler beim Buildvorgang.
+        
+        "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\cmTC_24ad5.vcxproj" (Standardziel) (1) ->
+        (ClCompile Ziel) -> 
+          D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\src.c(4,14): fatal error C1083: Datei (Include) kann nicht ge”ffnet werden: "gameinput.h": No such file or directory [D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3l86v\\cmTC_24ad5.vcxproj]
+        
+            0 Warnung(en)
+            1 Fehler
+        
+        Verstrichene Zeit 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "libs/SDL/CMakeLists.txt:1901 (check_include_file)"
+    checks:
+      - "Looking for dxgi1_6.h"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-63zy4k"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-63zy4k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_DXGI1_6_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-63zy4k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1725d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:10 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-63zy4k\\cmTC_1725d.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_1725d.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-63zy4k\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_1725d.dir\\Debug\\cmTC_1725d.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_1725d.dir\\Debug\\cmTC_1725d.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1725d.dir\\Debug\\\\" /Fd"cmTC_1725d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-63zy4k\\CheckIncludeFile.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1725d.dir\\Debug\\\\" /Fd"cmTC_1725d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-63zy4k\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-63zy4k\\Debug\\cmTC_1725d.exe" /INCREMENTAL /ILK:"cmTC_1725d.dir\\Debug\\cmTC_1725d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-63zy4k/Debug/cmTC_1725d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-63zy4k/Debug/cmTC_1725d.lib" /MACHINE:X64  /machine:x64 cmTC_1725d.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_1725d.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-63zy4k\\Debug\\cmTC_1725d.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_1725d.dir\\Debug\\cmTC_1725d.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_1725d.dir\\Debug\\cmTC_1725d.tlog\\cmTC_1725d.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-63zy4k\\cmTC_1725d.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.70
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "libs/SDL/CMakeLists.txt:1908 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_MFAPI_H"
+    directories:
+      source: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-jh674z"
+      binary: "D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-jh674z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/src/ScratchAI/Application/libs/SDL/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_MFAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-jh674z'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_daec4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R)-Build-Engine, Version 17.2.1+52cd2da31 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 01.10.2024 20:31:11 gestartet.
+        Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jh674z\\cmTC_daec4.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_daec4.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jh674z\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_daec4.dir\\Debug\\cmTC_daec4.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_daec4.dir\\Debug\\cmTC_daec4.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_daec4.dir\\Debug\\\\" /Fd"cmTC_daec4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jh674z\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.32.31332 f\xc2\x81r x64
+          src.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_daec4.dir\\Debug\\\\" /Fd"cmTC_daec4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jh674z\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jh674z\\Debug\\cmTC_daec4.exe" /INCREMENTAL /ILK:"cmTC_daec4.dir\\Debug\\cmTC_daec4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-jh674z/Debug/cmTC_daec4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/src/ScratchAI/Application/build/CMakeFiles/CMakeScratch/TryCompile-jh674z/Debug/cmTC_daec4.lib" /MACHINE:X64  /machine:x64 cmTC_daec4.dir\\Debug\\src.obj
+          cmTC_daec4.vcxproj -> D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jh674z\\Debug\\cmTC_daec4.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_daec4.dir\\Debug\\cmTC_daec4.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_daec4.dir\\Debug\\cmTC_daec4.tlog\\cmTC_daec4.lastbuildstate".
+        Die Erstellung von Projekt "D:\\src\\ScratchAI\\Application\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jh674z\\cmTC_daec4.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.72
+        
+      exitCode: 0
+...
